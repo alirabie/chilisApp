@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="100"
+        android:id="@+id/Order_price"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="25dp"
+        android:textColor="#ee3224" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/UpCount"
+        android:layout_weight="1"
+        android:src="@drawable/up" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="7"
+        android:id="@+id/Order_count"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="25dp"
+        android:textColor="#ee3224" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/DownCountbtn"
+        android:layout_weight="1"
+        android:src="@drawable/down" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="تشكن كرسبى"
+        android:id="@+id/Order_Name"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="25dp"
+        android:textColor="#ee3224" />
+</LinearLayout>
